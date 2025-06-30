@@ -2,7 +2,7 @@
 
 **`Desenvolvedor FullStack`**
 
-Chamo me Rodrigo, tenho 18 anos e sou um desenvolvedor iniciante apaixonado por tecnologia. Trabalho com Laravel, Node.js, JavaScript e PHP. Entre meus projetos, destaco um e-commerce voltado para motas e produtos relacionados. Estou sempre a procura de aprender mais e evoluir como desenvolvedor. Para entrar em contato, é só mandar um e-mail para: rodrigo.m.fazenda@gmail.com.
+Chamo me Rodrigo, tenho 19 anos e sou um desenvolvedor iniciante apaixonado por tecnologia. Trabalho com Laravel, Node.js, JavaScript e PHP. Entre meus projetos, destaco um e-commerce voltado para motas e produtos relacionados. Estou sempre a procura de aprender mais e evoluir como desenvolvedor. Para entrar em contato, é só mandar um e-mail para: rodrigo.m.fazenda@gmail.com.
 
 ---
 ### 📊 Estatísticas
