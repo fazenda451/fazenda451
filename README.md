@@ -167,6 +167,4 @@ Me chamo Rodrigo, tenho 18 anos e sou um desenvolvedor iniciante apaixonado por 
         <img alt="Gmail" title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
 </p>
-## 🐍 Snake animation
-
 <img src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/snake.svg" alt="Snake animation" />
