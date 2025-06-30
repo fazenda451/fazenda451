@@ -1,0 +1,29 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Atualiza todos os dias à meia-noite
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+      - name: Gerar snake.svg (tema roxo)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake.svg?palette=purple
+      - name: Mover o ficheiro gerado para a pasta de output
+        run: |
+          mkdir -p ./output
+          mv dist/github-contribution-grid-snake.svg ./output/github-contribution-grid-snake.svg
+      - name: Commit e push do resultado
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions[bot]
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: "Atualizar snake animation roxa [skip ci]"
+          add: "./output/github-contribution-grid-snake.svg"
