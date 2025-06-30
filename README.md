@@ -169,4 +169,4 @@ Me chamo Rodrigo, tenho 18 anos e sou um desenvolvedor iniciante apaixonado por 
 </p>
 ## 🐍 Snake animation
 
-<img src="https://raw.githubusercontent.com/gitUser/gitrepo/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/snake.svg" alt="Snake animation" />
