@@ -14,7 +14,7 @@ jobs:
       - name: Gerar snake.svg (tema roxo)
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: fazenda451
           outputs: dist/github-contribution-grid-snake.svg?palette=purple
       - name: Mover o ficheiro gerado para a pasta de output
         run: |
