@@ -23,6 +23,5 @@ jobs:
         with:
           USERNAME: fazenda451
           BRANCH_NAME: output
-          THEME: tokyonight
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
