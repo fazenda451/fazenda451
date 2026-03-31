@@ -1,0 +1,69 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # Every 6 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p dist
+
+      # Download stats cards as static SVG files
+      - name: Download GitHub Stats Card
+        run: |
+          curl -s -o dist/github-stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=fazenda451&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&ring_color=6C63FF"
+          # Retry with backup instance if failed
+          if [ ! -s dist/github-stats.svg ] || ! grep -q '<svg' dist/github-stats.svg; then
+            curl -s -o dist/github-stats.svg \
+              "https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api?username=fazenda451&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&ring_color=6C63FF"
+          fi
+
+      - name: Download Streak Stats Card
+        run: |
+          curl -s -o dist/streak-stats.svg \
+            "https://streak-stats.demolab.com?user=fazenda451&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideLabels=C9D1D9&dates=C9D1D9"
+
+      - name: Download Top Languages Card
+        run: |
+          curl -s -o dist/languages.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=fazenda451&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&layout=compact&langs_count=8"
+          # Retry with backup instance if failed
+          if [ ! -s dist/languages.svg ] || ! grep -q '<svg' dist/languages.svg; then
+            curl -s -o dist/languages.svg \
+              "https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api/top-langs/?username=fazenda451&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&layout=compact&langs_count=8"
+          fi
+
+      - name: Verify SVGs are valid
+        run: |
+          for f in dist/github-stats.svg dist/streak-stats.svg dist/languages.svg; do
+            if [ -s "$f" ] && grep -q '<svg' "$f"; then
+              echo "✅ $f is valid"
+            else
+              echo "⚠️ $f may be invalid, keeping previous version"
+              rm -f "$f"
+            fi
+          done
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
