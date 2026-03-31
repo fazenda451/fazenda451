@@ -139,20 +139,29 @@ My personal developer portfolio showcasing projects, skills, and professional ex
 
 ## 📊 GitHub Stats
 
-<!-- Stats are generated as static SVGs every 6 hours via GitHub Actions — they never go down -->
+<!-- Cards generated locally by GitHub Actions — no external API dependency -->
 <div align="center">
 
 <a href="https://github.com/fazenda451">
-  <img height="180" src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/github-stats.svg" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/fazenda451">
-  <img height="180" src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/streak-stats.svg" alt="GitHub Streak" />
+  <img height="180" src="https://streak-stats.demolab.com?user=fazenda451&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideLabels=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
 </a>
 
 <br/>
 
-<a href="https://github.com/fazenda451?tab=repositories">
-  <img height="180" src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/languages.svg" alt="Top Languages" />
+<a href="https://github.com/fazenda451">
+  <img src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" />
+</a>
+<a href="https://github.com/fazenda451">
+  <img src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" />
+</a>
+
+<br/>
+
+<a href="https://github.com/fazenda451">
+  <img width="95%" src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
 </a>
 
 </div>
