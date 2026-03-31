@@ -1,6 +1,7 @@
 <div align="center">
 
 <!-- Dynamic typing effect -->
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=Hi+%F0%9F%91%8B+I'm+Rodrigo+Fazenda;Full-Stack+Web+Developer+%7C+Portugal+%F0%9F%87%B5%F0%9F%87%B9)](https://github.com/fazenda451)
 
 <p>
@@ -38,6 +39,7 @@ focus: Building real-world web applications — from client websites to full e-c
 <div align="center">
 
 #### Languages
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -45,6 +47,7 @@ focus: Building real-world web applications — from client websites to full e-c
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 #### Frameworks & Libraries
+
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -53,6 +56,7 @@ focus: Building real-world web applications — from client websites to full e-c
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 #### Tools & Platforms
+
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -71,6 +75,7 @@ focus: Building real-world web applications — from client websites to full e-c
 <td width="50%" valign="top">
 
 ### 🏍️ [Bikes By Fazenda](https://github.com/fazenda451/Bikes-By-Fazenda---Website)
+
 **Full-Stack E-Commerce Platform**
 
 A complete e-commerce web app for motorcycles and accessories in the Portuguese market — with product catalog, shopping cart, Stripe payments, admin dashboard, PDF invoices, and loyalty points system.
@@ -85,6 +90,7 @@ A complete e-commerce web app for motorcycles and accessories in the Portuguese 
 <td width="50%" valign="top">
 
 ### 🏨 [Little World Hotel & SPA](https://github.com/fazenda451/little-world)
+
 **Luxury Hotel Website** · [🌐 Live Demo](https://littleworldhotel.netlify.app)
 
 A high-performance 5-star hotel website built with zero frameworks — custom design system, dynamic booking engine with real-time cost calculation, and a fully responsive mobile-first layout.
@@ -101,6 +107,7 @@ A high-performance 5-star hotel website built with zero frameworks — custom de
 <td width="50%" valign="top">
 
 ### 🚗 [Sintra Clássicos](https://github.com/fazenda451/sintraclassicos)
+
 **Classic Car Community Website** · [🌐 sintraclassicos.com](https://sintraclassicos.com)
 
 Community website for classic car events in Sintra, Portugal — featuring a CMS-powered content system, event gallery, annual agenda, and vintage-inspired design with Decap CMS integration.
@@ -115,6 +122,7 @@ Community website for classic car events in Sintra, Portugal — featuring a CMS
 <td width="50%" valign="top">
 
 ### 💼 [Portfolio](https://github.com/fazenda451/Portefolio-Rodrigo-Fazenda)
+
 **Personal Portfolio Website**
 
 My personal developer portfolio showcasing projects, skills, and professional experience.
