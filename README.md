@@ -156,21 +156,6 @@ My personal developer portfolio showcasing projects, skills, and professional ex
 
 ---
 
-## 📈 Stats & Languages
-
-<div align="center">
-
-<a href="https://github.com/fazenda451">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fazenda451&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9&rank_icon=github" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/fazenda451">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fazenda451&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
-</a>
-
-</div>
-
----
-
 ## 🏙️ 3D Contribution Skyline
 
 <div align="center">
