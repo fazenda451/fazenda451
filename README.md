@@ -156,6 +156,26 @@ My personal developer portfolio showcasing projects, skills, and professional ex
 
 ---
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=fazenda451&theme=tokyonight&no-bg=true&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🏙️ 3D Contribution Skyline
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/fazenda451/fazenda451/output/profile-night-green.svg" alt="3D Contribution Graph" width="95%" />
+
+</div>
+
+---
+
 <div align="center">
 
 <a href="https://github.com/fazenda451?tab=repositories&sort=stargazers">
@@ -164,6 +184,16 @@ My personal developer portfolio showcasing projects, skills, and professional ex
 <a href="https://github.com/fazenda451?tab=followers">
   <img src="https://custom-icon-badges.demolab.com/github/followers/fazenda451?color=6C63FF&style=for-the-badge&labelColor=0D1117&logo=person-add&label=Followers&logoColor=white" alt="Followers" />
 </a>
+
+</div>
+
+---
+
+## 💡 Random Dev Quote
+
+<div align="center">
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 </div>
 
